@@ -1,0 +1,77 @@
+{
+	"pages": [
+		// {
+		// 	"path": "pages/knowledge/knowledge",
+		// 	"style": {
+		// 		"navigationStyle": "custom",
+		// 		"navigationBarTitleText": "知识库"
+		// 	}
+		// },
+		{
+			"path": "pages/text/text",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "知识库"
+			}
+		},
+		{
+			"path": "pages/group/group",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "小组"
+			}
+		},
+		{
+			"path": "pages/task/task",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "任务"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				// "navigationStyle": "custom",
+				"navigationBarTitleText": "个人中心"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#FF5555",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/text/text",
+				"text": "知识库",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png"
+			},
+			{
+				"pagePath": "pages/group/group",
+				"text": "小组",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png"
+			},
+			{
+				"pagePath": "pages/task/task",
+				"text": "任务",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png"
+			}
+		]
+	}
+}
